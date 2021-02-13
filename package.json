@@ -1,10 +1,11 @@
 {
   "name": "jozeflacko-test-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
+  "types": "./index.d.ts",
   "scripts": {
-    "build": "tsc src/index.ts"
+    "build": "tsc src/index.ts --declaration --allowJs --emitDeclarationOnly --outDir dist"
   },
   "repository": {
     "type": "git",
